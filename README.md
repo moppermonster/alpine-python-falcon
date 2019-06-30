@@ -37,7 +37,10 @@ Interesting files and their locations (in the container):
 | /etc/supervisord.conf                    | Supervisord config file                                                                       |
 
 #### docker-compose
-Mounting files is considerably easier using docker-compose.
+Mounting files is considerably easier using docker-compose. This repository contains some [examples](#examples).
+
+### Examples
+This repository contains some [examples](https://github.com/nielsds/alpine-python-falcon-examples) using the image.
 
 ## Dockerfile
 ```Dockerfile
@@ -79,7 +82,7 @@ sh rebuild.sh
 ```
 Default port: `http://localhost:5678`
 
-### Manualy
+### Manually
 #### Build
 ```bash
 docker build -t alpine-python-falcon .
