@@ -1,8 +1,6 @@
-# https://github.com/nielsds/alpine-python-falcon
+# https://github.com/moppermonster/alpine-python-falcon
 
-FROM dutchsecniels/alpine-python
-
-MAINTAINER niels@dutchsec.com
+FROM moppermonster/alpine-python
 
 # Install friends
 RUN apk add --no-cache nginx uwsgi uwsgi-python3 supervisor

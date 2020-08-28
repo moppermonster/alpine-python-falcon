@@ -5,7 +5,7 @@ You can use this file as a starting point for building your own services
 
 This example assumes use of the built in JSONTranslator Falcon middleware
 
-Find out more: https://github.com/nielsds/alpine-python-falcon
+Find out more: https://github.com/moppermonster/alpine-python-falcon
 '''
 
 import falcon
